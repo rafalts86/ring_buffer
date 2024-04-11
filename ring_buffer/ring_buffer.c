@@ -7,10 +7,6 @@
 
 #include "ring_buffer.h"
 
-buff_state_t ring_buffer_write(ring_buff_t *buff, uint8_t value);
-buff_state_t ring_buffer_read(ring_buff_t *buff, uint8_t *data);
-void ring_buffer_flush(ring_buff_t *buff);
-
 
 void ring_buffer_flush(ring_buff_t *buff)
 {
